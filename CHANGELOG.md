@@ -1,5 +1,24 @@
 # Changelog
 
+## [6.5.0](https://github.com/morluto/rea/compare/rea-agents-6.4.0...rea-agents-6.5.0) (2026-10-11)
+
+
+### Performance Improvements
+
+* **cli:** defer command-specific modules until dispatch ([a82d14e](https://github.com/morluto/rea/commit/a82d14e4db4dca989ffa2e7dbe78fd43551da256))
+* **domain:** avoid duplicate readiness bundle validation ([29ff887](https://github.com/morluto/rea/commit/29ff887f6558cf00c0d6392889b890ed8a702a6f))
+* **evidence:** fuse streamed JSON token handling ([#1694](https://github.com/morluto/rea/issues/1694)) ([13e03e9](https://github.com/morluto/rea/commit/13e03e94363a007353fcb5dfedec764de12fc927))
+* **javascript:** reuse collected callable identities for returns ([d3088c3](https://github.com/morluto/rea/commit/d3088c3795f6c37cb3b6aec0bb0c371dd0640ee8))
+* **mcp:** keep Playwright and type-only imports off MCP startup ([#1691](https://github.com/morluto/rea/issues/1691)) ([0ecf3f2](https://github.com/morluto/rea/commit/0ecf3f2438ec96a6b543942869808018e8d84452))
+* **tests:** consolidate TypeScript dialect producer checks ([01762b1](https://github.com/morluto/rea/commit/01762b10c6a40370996e6dfa3a96ffcb27148f97))
+* **tests:** remove timed output and synchronize browser fixtures ([693ed33](https://github.com/morluto/rea/commit/693ed332b58d05192f55b8192d2c0c4bc4f4824a))
+* **tests:** reuse stateless workflows and immutable fixtures ([5f4c7ff](https://github.com/morluto/rea/commit/5f4c7ff6df0735d5a4461b5d0e6f2e466b888be0))
+
+
+### Documentation
+
+* **setup:** confirm published 6.4.0 client support ([57c5aca](https://github.com/morluto/rea/commit/57c5acac2e13fd7f0e3832bc147c7ceda8c314f2))
+
 ## [6.4.0](https://github.com/morluto/rea/compare/rea-agents-6.3.0...rea-agents-6.4.0) (2026-10-11)
 
 ### Highlights
